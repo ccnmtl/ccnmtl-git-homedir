@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo -i -u git ~git/update_and_push.sh
