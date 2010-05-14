@@ -12,3 +12,9 @@ after a push into the repository.
 This keeps the non-bare working checkout in the proper state to be pushed/pulled from.
 We also have a hook to post the commit to our IRC channel, which is useful to keep
 tabs on what's happening.
+
+Take a look at:
+sample_deploy_script.sh
+for how we deploy from our GIT repository.  For a better deployment experience, still,
+checkout Rollo:
+http://github.com/ccnmtl/rollo
