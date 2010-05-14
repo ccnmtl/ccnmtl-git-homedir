@@ -8,6 +8,6 @@ fi
 mkdir -p ${REPO}
 cd ${REPO}
 cp ~/.gitignore .
-git init --shared=all --template=/home/git/.git-nonbare-template
+git init --shared=all --template=/home/git/__git-nonbare-template
 git add .gitignore
 git commit -m'add .gitignore'

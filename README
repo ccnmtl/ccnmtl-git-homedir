@@ -1,0 +1,14 @@
+This contains the files that CCNMTL uses to manage their local GIT repo.
+
+Use:
+./create <new_repo>.git
+
+to create a new repo.  
+The Repo is non-bare so push scripts can add tags to the repository.
+
+the __git_nonbare_template/ makes each repo run ~git/real_post_update.sh
+after a push into the repository.
+
+This keeps the non-bare working checkout in the proper state to be pushed/pulled from.
+We also have a hook to post the commit to our IRC channel, which is useful to keep
+tabs on what's happening.
